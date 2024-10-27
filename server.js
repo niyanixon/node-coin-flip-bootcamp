@@ -27,7 +27,6 @@ const server = http.createServer(function(req,res){
           const objToJson = {
               result: result
             }
-          console.log(result)
           res.end(JSON.stringify(objToJson));
         } 
     }else if (page == '/style.css'){
